@@ -1,0 +1,163 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "landID",
+						"type": "uint256"
+					}
+				],
+				"name": "getLandDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "surveyNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "district",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "taluk",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "village",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blockNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "landValue",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "area",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "salesStatus",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Land.LandDetail",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "surveyNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "taluk",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "village",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "blockNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "landValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "area",
+						"type": "uint256"
+					}
+				],
+				"name": "registerNewLand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "registeredLandCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Land.sol": "Land"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Land.sol": {
+			"keccak256": "0xd29efcda40e38421b2df61e3d6639508652612f5d2519f58fdd799ba861e358a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://accfccb1d03552bd8e0dc45dc6bf36b94911505a62c4cc9e5727280410521194",
+				"dweb:/ipfs/Qmev1PEyqdbU2hBGPcsaGnstKANVdL8rpbee3TvCNxTd1t"
+			]
+		}
+	},
+	"version": 1
+}

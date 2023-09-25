@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_daoBankAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "depositMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "doaBank",
+				"outputs": [
+					{
+						"internalType": "contract IDAOBank",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Reentrancy/Attack.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Reentrancy/Attack.sol": {
+			"keccak256": "0xa19d8965c91b7e0c6c4bc5bbbf9ba42808bfec32f41036669323c5da50cd0a3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d0b83c7b96ebd02da8b739d59f82e5412364c7d5f0ad6961f618619953481c8",
+				"dweb:/ipfs/QmXsdj5R9L7ShJU9bB2haVx1smnfwsNBz3roJQucoszwe5"
+			]
+		}
+	},
+	"version": 1
+}

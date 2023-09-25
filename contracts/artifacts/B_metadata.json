@@ -6,6 +6,36 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "createdA",
+				"type": "event"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "createA",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -41,6 +71,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -71,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/ContractInstance.sol": {
-			"keccak256": "0xaee849cb1295745121c6370a12e88c99d7f2bf5e4977d285f1a8926209fb58eb",
+			"keccak256": "0xf7f2fcef28710071f7d1a2fdc590cf3e18c8991fbe4af7a0129a77c7e79d12b4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e1e445c744e0d26eb2454cd40691c9d2e978bb0a91023ce328b378e96d9a0eb",
-				"dweb:/ipfs/QmbV1cQcGN5qdM8vgn7yp1bY5e3iF6SSt3pBkZp9S5t1HT"
+				"bzz-raw://cc660ec9be6396db50568cb278171596e8dae93f0fba4da60e83308c832ea7a6",
+				"dweb:/ipfs/Qmcck4oF5j7oLtRQePQWrngLVQSG9AtPrwpXjDDjvTEULx"
 			]
 		}
 	},

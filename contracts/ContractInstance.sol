@@ -13,6 +13,8 @@ contract A {
 
 contract B{
     string msgB;
+
+    event createdA(address);
     function getMsgFromA(address contractAddress) public view returns(string memory){
         A objA = A(contractAddress);
         return objA.getMsgA();
@@ -21,5 +23,17 @@ contract B{
     function setMsgFromA(address contractAddress, string memory _msg) public{
            A objA = A(contractAddress);
            objA.setMsgA(_msg);
+    }
+
+    function createA() public returns(address){
+        A obj = new A();
+        emit createdA(address(obj));
+        return address(obj);
+    }
+    fallback() external{
+
+    }
+    receive() external payable{
+        
     }
 }

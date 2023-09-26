@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bid",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentLeader",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "highestBid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DOS/Auction.sol": "Auction"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DOS/Auction.sol": {
+			"keccak256": "0x16f8c160f696dc24280a5692eb52f3e4c4f6630a6603142a5b9c7c23ed512c6f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a13d8fb3e7efeb2db88d95debe3903bb6e3a4960ffab549befded6096ffd8ae6",
+				"dweb:/ipfs/QmexriMbBrLVu8wF3hWjvZ6G6EBY3VX61K1KDoGSbLxGD6"
+			]
+		}
+	},
+	"version": 1
+}

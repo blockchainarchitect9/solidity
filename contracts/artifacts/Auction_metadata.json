@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "bid",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Auction.sol": "Auction"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Auction.sol": {
+			"keccak256": "0x3537c3a1efb6003bea18d2e2437c9b6b014836df5b431c898a2503acfe827ec6",
+			"urls": [
+				"bzz-raw://e522e24ab05660fe73108531e1eccc6c3b9659e444cfc9250f40a60f3154869d",
+				"dweb:/ipfs/QmbCPzfn6RezyMJor6Fw7wyQcDRXWKcmtov34ZRPJrrLzi"
+			]
+		}
+	},
+	"version": 1
+}

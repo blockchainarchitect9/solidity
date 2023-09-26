@@ -26,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"DOS/Attack.sol": "IAuction"
+			"contracts/DOS/Attack.sol": "IAuction"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -40,7 +40,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"DOS/Attack.sol": {
+		"contracts/DOS/Attack.sol": {
 			"keccak256": "0x2423d09038bd2967526d8c3127f394d2bd1b56bd67f46652e343781117ebd61d",
 			"license": "MIT",
 			"urls": [
